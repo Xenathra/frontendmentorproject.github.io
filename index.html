@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEndMendot Course</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+      body {
+        font-family: "Figtree";
+      }
+
+      .box {
+        padding-bottom: 14px;
+      }
+
+      .card-img-top {
+        padding: 1rem 1rem 0rem 1rem;
+      }
+
+      .container {
+        display: flex;
+      }
+
+      .img {
+        padding-right: -2px;
+      }
+
+      .txt {
+        padding-left: 12px;
+      }
+
+      .card {
+        box-shadow: 10px 10px;
+      }
+
+      .card-text {
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #f6d050">
+    <div class="position-absolute top-50 start-50 translate-middle">
+      <div class="card rounded-4 border border-black" style="width: 18rem">
+        <img src="prop.png" class="card-img-top rounded-5" alt="..." />
+        <div class="card-body m-0">
+          <!-- title -->
+          <div class="box">
+            <span style="background-color: #f6d050; color: black" class="badge width: 0.5rem">Learning</span>
+          </div>
+          <p>Published 31 march 2024</p>
+          <h5 class="card-title fw-bolder">HTML & CSS fondations</h5>
+          <p class="card-text fw-lighter">These languages are the backbone of every website, defining structure,content, and presentation</p>
+
+          <!-- name and small photo -->
+          <div class="container">
+            <img class="rounded-circle" src="zidan.jpg" width="10%" height="10%" alt="my photo" />
+
+            <div class="txt">
+              <p class="fw-bold">AdrianZidan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
